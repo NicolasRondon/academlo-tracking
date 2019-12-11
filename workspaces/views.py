@@ -33,7 +33,7 @@ class WorkspaceViewSet(viewsets.ModelViewSet):
     serializer_class = WorkspaceSerializer
 
     def get_permissions(self):
-        if self.action in ['retrieve', 'list', 'tags']:
+        if self.action in ['retrieve', 'list']:
             self.permission_classes = [AllowAny]
         else:
             self.permission_classes = [IsAdminUser]
@@ -45,35 +45,8 @@ class WorkspaceViewSet(viewsets.ModelViewSet):
             return CreateWorkspaceSerializer
         return WorkspaceSerializer
 
-    @action(detail=True, methods=['GET'])
-    def students(self, request, pk=None):
-        """
-        Regresa la lista de estudiantes de un workspace
-        """
-        workspace = self.get_object()
-        users = workspace.users.filter(is_staff=False)
-        serialized = UserSerializer(users, many=True)
-        return Response(status=status.HTTP_200_OK, data=serialized.data)
-
-    @action(detail=True, methods=['GET'])
-    def admin(self, request, pk=None):
-        """
-        Regresa la lista de administradores que pertenecen a un workspace
-        """
-        workspace = self.get_object()
-        users = workspace.users.filter(is_staff=True)
-        serialized = UserSerializer(users, many=True)
-        return Response(status=status.HTTP_200_OK, data=serialized.data)
-
-    @action(detail=True, methods=['GET'])
-    def users(self, request, pk=None):
-        workspace = self.get_object()
-        users = workspace.users.all()
-        serialized = UserSerializer(users, many=True)
-        return Response(status=status.HTTP_200_OK, data=serialized.data)
-
     @action(detail=True, methods=['GET', 'POST', 'DELETE'])
-    def invite(self, request, pk=None):
+    def users(self, request, pk=None):
         workspace = self.get_object()
         if request.method == 'GET':
             users = workspace.users.all()
@@ -82,7 +55,6 @@ class WorkspaceViewSet(viewsets.ModelViewSet):
         elif request.method == 'POST':
             id = request.data.get('id', None)
             if id:
-                #user = User.objects.get(id=id)
                 user = get_object_or_404(User, id=id)
                 workspace.users.add(user)
                 send_mail(
@@ -91,12 +63,12 @@ class WorkspaceViewSet(viewsets.ModelViewSet):
                     from_email='from@example.com',
                     recipient_list=['{0}'.format(user.email)],
                     fail_silently=False,
-                          )
+                )
                 return Response(status=status.HTTP_200_OK)
         else:
             id = request.data.get('id', None)
             if id:
-                # user = User.objects.get(id=id)
                 user = get_object_or_404(User, id=id)
                 workspace.users.remove(user)
                 return Response(status=status.HTTP_200_OK)
+
