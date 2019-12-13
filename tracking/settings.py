@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     #local
     'core.apps.CoreConfig',
     'workspaces.apps.WorkspacesConfig',
+    'projects.apps.ProjectsConfig',
+    'boards.apps.BoardConfig',
+    'tasks.apps.TasksConfig',
+    'comments.apps.CommentsConfig',
     #3rd party
     'rest_framework',
 ]
@@ -57,11 +61,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'tracking.urls'
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(os.path.dirname(__file__), '..//', 'core/utils').replace('\\', '/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -139,7 +142,7 @@ REST_FRAMEWORK = {
     )
 }
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=40),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
     'ROTATE_REFRESH_TOKENS': False,
     'BLACKLIST_AFTER_ROTATION': True,

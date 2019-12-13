@@ -2,14 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff0b161-02df-4789-ae45-2141e438a980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspaces/tests/test_workspace_action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspaces/tests/test_workspace_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspaces/tests/test_workspace_students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/migrations/0002_auto_20191212_1533.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/migrations/0003_auto_20191213_0727.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils/images/logo_academlo_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils/images/señoir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils/userworkspace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0002_project_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/tests/test_project_students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/tests/test_projects_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls/v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspaces/tests/test_workspace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tracking/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/tests/test_workspace_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/tests/test_workspace_action.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspaces/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +76,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UcnwpihEgJYgAIoHwduqXJG7do" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -53,8 +97,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_user_action_post">
-    <configuration name="Test: core.tests.test_actions.ActionsTestCase.test_students" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RunManager" selected="Django tests.Test: projects.tests.test_project_students.ProjectTestCases.test_project_student_get">
+    <configuration name="Test: projects.tests.test_project_students.ProjectTestCases.test_project_student_get" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tracking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,14 +111,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="core.tests.test_actions.ActionsTestCase.test_students" />
+      <option name="TARGET" value="projects.tests.test_project_students.ProjectTestCases.test_project_student_get" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: workspaces.tests.test_actions.WorkspaceTestCase.test_users_action_get" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tracking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +131,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="workspaces.tests.test_actions.WorkspaceTestCase.test_users_action_get" />
+      <option name="TARGET" value="projects.tests.test_projects_admin.ProjectTestCases.test_admin_project" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project_get" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="tracking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="projects.tests.test_projects_admin.ProjectTestCases.test_admin_project_get" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -134,26 +198,6 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_create" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="tracking" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_create" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tracking" type="Python.DjangoServer" factoryName="Django server">
       <module name="tracking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: projects.tests.test_project_students.ProjectTestCases.test_project_student_get" />
+        <item itemvalue="Django tests.Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project_get" />
+        <item itemvalue="Django tests.Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project" />
         <item itemvalue="Django tests.Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_user_action_post" />
         <item itemvalue="Django tests.Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_users_action_get" />
-        <item itemvalue="Django tests.Test: workspaces.tests.test_actions.WorkspaceTestCase.test_users_action_get" />
-        <item itemvalue="Django tests.Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_create" />
-        <item itemvalue="Django tests.Test: core.tests.test_actions.ActionsTestCase.test_students" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +248,8 @@
       <workItem from="1575926010500" duration="10690000" />
       <workItem from="1575946526918" duration="1202000" />
       <workItem from="1576080724595" duration="14106000" />
+      <workItem from="1576162231575" duration="23828000" />
+      <workItem from="1576239843027" duration="3845000" />
     </task>
     <servers />
   </component>
@@ -223,6 +269,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -236,11 +285,17 @@
           <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/tests/test_project_students.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_action_WorkspaceTestCase_test_user_action_post.coverage" NAME="Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_user_action_post Coverage Results" MODIFIED="1576100259562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_action_WorkspaceTestCase_test_user_action_post.coverage" NAME="Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_user_action_post Coverage Results" MODIFIED="1576163380844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_projects_admin_ProjectTestCases_test_admin_project_get.coverage" NAME="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project_get Coverage Results" MODIFIED="1576163940105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase Coverage Results" MODIFIED="1575736596511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase_test_admin.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase.test_admin Coverage Results" MODIFIED="1575692293089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace_delete.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace_delete Coverage Results" MODIFIED="1576083263752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -254,6 +309,8 @@
     <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase Coverage Results" MODIFIED="1575692279917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace_create Coverage Results" MODIFIED="1576083172678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase Coverage Results" MODIFIED="1576087867834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_projects_admin_ProjectTestCases_test_admin_project.coverage" NAME="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project Coverage Results" MODIFIED="1576163904113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase_test_admin_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_create Coverage Results" MODIFIED="1576097734724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_project_students_ProjectTestCases_test_project_student_get.coverage" NAME="Test: projects.tests.test_project_students.ProjectTestCases.test_project_student_get Coverage Results" MODIFIED="1576166195943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

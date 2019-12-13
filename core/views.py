@@ -2,6 +2,10 @@ from django.contrib.auth.models import User
 from django.shortcuts import render
 from rest_framework import viewsets, status
 
+from projects.models import Project
+from projects.serializers import ProjectSerializer
+from tasks.models import Task
+from tasks.serializers import TaskSerializer
 from workspaces.models import Workspace
 from workspaces.serializers import WorkspaceSerializer
 from .serializers import UserSerializer, CreateUserSerializer
@@ -60,4 +64,23 @@ class UserViewSet(viewsets.ModelViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND, data={'message': 'There are not admins'})
         return Response(status=status.HTTP_200_OK, data=serialized.data)
 
+    @action(detail=True, methods=['GET'])
+    def tasks(self, request, pk=None):
+        user = self.get_object()
+        tasks = Task.objects.filter(user__id=user.id)
+        serialized = TaskSerializer(tasks, many=True)
+        return Response(status=status.HTTP_200_OK, data=serialized.data)
 
+    @action(detail=True, methods=['GET'])
+    def projects(self, request, pk=None):
+        user = self.get_object()
+        projects = Project.objects.filter(users__id=user.id)
+        serialized = ProjectSerializer(projects, many=True)
+        return Response(status=status.HTTP_200_OK, data=serialized.data)
+
+    @action(detail=True, methods=['GET'])
+    def workspaces(self, request, pk=None):
+        user = self.get_object()
+        workspace = Workspace.objects.filter(users__id=user.id)
+        serialized = WorkspaceSerializer(workspace, many=True)
+        return Response(status=status.HTTP_200_OK, data=serialized.data)
