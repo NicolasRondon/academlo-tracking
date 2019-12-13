@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'comments.apps.CommentsConfig',
     #3rd party
     'rest_framework',
+    'safedelete',
 ]
 
 MIDDLEWARE = [

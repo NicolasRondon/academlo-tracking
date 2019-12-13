@@ -2,55 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff0b161-02df-4789-ae45-2141e438a980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boards/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/migrations/0002_auto_20191212_1533.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/migrations/0003_auto_20191213_0727.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boards/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/images/logo_academlo_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/images/señoir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/userworkspace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/migrations/0002_project_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/tests/test_project_students.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/tests/test_projects_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boards/migrations/0004_board_deleted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/migrations/0002_comment_deleted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0003_project_deleted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/0002_task_deleted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/migrations/0003_workspace_deleted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls/v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracking/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tracking/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspaces/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspaces/tests/test_workspace_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/tests/test_workspace_action.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspaces/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -249,7 +214,7 @@
       <workItem from="1575946526918" duration="1202000" />
       <workItem from="1576080724595" duration="14106000" />
       <workItem from="1576162231575" duration="23828000" />
-      <workItem from="1576239843027" duration="3845000" />
+      <workItem from="1576239843027" duration="7809000" />
     </task>
     <servers />
   </component>

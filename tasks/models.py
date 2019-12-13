@@ -1,12 +1,15 @@
 from django.contrib.auth.models import User
 from django.db import models
 
-
 # Create your models here.
 from boards.models import Board
+from safedelete.models import SafeDeleteModel
+from safedelete.models import SOFT_DELETE_CASCADE
 
 
-class Task(models.Model):
+class Task(SafeDeleteModel):
+    _safedelete_policy = SOFT_DELETE_CASCADE
+
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     board = models.ForeignKey(Board, on_delete=models.CASCADE)
     name = models.CharField(max_length=250)
@@ -17,3 +20,8 @@ class Task(models.Model):
 
     def __str__(self):
         return self.name
+
+    def save(self, *args, **kwargs):
+        if not self.position:
+            self.position = Task.objects.all().count() + 1
+        super(Task, self).save(*args, **kwargs)

@@ -2,9 +2,13 @@ from django.db import models
 
 # Create your models here.
 from projects.models import Project
+from safedelete.models import SafeDeleteModel
+from safedelete.models import SOFT_DELETE_CASCADE
 
 
-class Board(models.Model):
+class Board(SafeDeleteModel):
+    _safedelete_policy = SOFT_DELETE_CASCADE
+
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     name = models.CharField(max_length=150)
     position = models.IntegerField(null=True)
