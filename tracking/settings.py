@@ -27,7 +27,9 @@ SECRET_KEY = '*%b1t!xvc+su@e*vr_%9%#mw79qq!j*u92nx-4@!z$0p%z3wb0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://academlo-tracking.herokuapp.com/'
+]
 
 
 # Application definition
