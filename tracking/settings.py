@@ -28,7 +28,7 @@ SECRET_KEY = '*%b1t!xvc+su@e*vr_%9%#mw79qq!j*u92nx-4@!z$0p%z3wb0'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://academlo-tracking.herokuapp.com/'
+    'academlo-tracking.herokuapp.com'
 ]
 
 
