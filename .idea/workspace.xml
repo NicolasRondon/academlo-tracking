@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff0b161-02df-4789-ae45-2141e438a980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boards/migrations/0004_board_deleted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/migrations/0002_comment_deleted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/migrations/0003_project_deleted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/migrations/0002_task_deleted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspaces/migrations/0003_workspace_deleted.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tracking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tracking.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boards/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tracking/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspaces/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspaces/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +18,25 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="277" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -48,6 +59,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -215,11 +227,15 @@
       <workItem from="1576080724595" duration="14106000" />
       <workItem from="1576162231575" duration="23828000" />
       <workItem from="1576239843027" duration="7809000" />
+      <workItem from="1576384906836" duration="1830000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -260,22 +276,22 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_action_WorkspaceTestCase_test_user_action_post.coverage" NAME="Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_user_action_post Coverage Results" MODIFIED="1576163380844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_projects_admin_ProjectTestCases_test_admin_project_get.coverage" NAME="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project_get Coverage Results" MODIFIED="1576163940105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase Coverage Results" MODIFIED="1575736596511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase_test_admin.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase.test_admin Coverage Results" MODIFIED="1575692293089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace_delete.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace_delete Coverage Results" MODIFIED="1576083263752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_actions_WorkspaceTestCase_test_users_action_get.coverage" NAME="Test: workspaces.tests.test_actions.WorkspaceTestCase.test_users_action_get Coverage Results" MODIFIED="1576098489593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase_test_admin_workspace_get.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_get Coverage Results" MODIFIED="1576086755804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_students_WorkspaceTestCase_test_student_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace_students.WorkspaceTestCase.test_student_workspace_create Coverage Results" MODIFIED="1576086126065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase_test_students.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase.test_students Coverage Results" MODIFIED="1576095913020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions.coverage" NAME="Test: core.tests.test_actions Coverage Results" MODIFIED="1575692047200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace Coverage Results" MODIFIED="1576083091135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_action_WorkspaceTestCase_test_users_action_get.coverage" NAME="Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_users_action_get Coverage Results" MODIFIED="1576098792724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase Coverage Results" MODIFIED="1575692279917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace_create Coverage Results" MODIFIED="1576083172678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase Coverage Results" MODIFIED="1576087867834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_projects_admin_ProjectTestCases_test_admin_project.coverage" NAME="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project Coverage Results" MODIFIED="1576163904113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase_test_admin_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_create Coverage Results" MODIFIED="1576097734724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase Coverage Results" MODIFIED="1575736596511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_students_WorkspaceTestCase_test_student_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace_students.WorkspaceTestCase.test_student_workspace_create Coverage Results" MODIFIED="1576086126065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions.coverage" NAME="Test: core.tests.test_actions Coverage Results" MODIFIED="1575692047200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_project_students_ProjectTestCases_test_project_student_get.coverage" NAME="Test: projects.tests.test_project_students.ProjectTestCases.test_project_student_get Coverage Results" MODIFIED="1576166195943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace_delete.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace_delete Coverage Results" MODIFIED="1576083263752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase_test_students.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase.test_students Coverage Results" MODIFIED="1576095913020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace Coverage Results" MODIFIED="1576083091135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_projects_admin_ProjectTestCases_test_admin_project.coverage" NAME="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project Coverage Results" MODIFIED="1576163904113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_actions_WorkspaceTestCase_test_users_action_get.coverage" NAME="Test: workspaces.tests.test_actions.WorkspaceTestCase.test_users_action_get Coverage Results" MODIFIED="1576098489593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_action_WorkspaceTestCase_test_users_action_get.coverage" NAME="Test: workspaces.tests.test_workspace_action.WorkspaceTestCase.test_users_action_get Coverage Results" MODIFIED="1576098792724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_WorkspaceTestCase_test_student_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace.WorkspaceTestCase.test_student_workspace_create Coverage Results" MODIFIED="1576083172678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase_test_admin.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase.test_admin Coverage Results" MODIFIED="1575692293089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__projects_tests_test_projects_admin_ProjectTestCases_test_admin_project_get.coverage" NAME="Test: projects.tests.test_projects_admin.ProjectTestCases.test_admin_project_get Coverage Results" MODIFIED="1576163940105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase_test_admin_workspace_get.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_get Coverage Results" MODIFIED="1576086755804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__core_tests_test_actions_ActionsTestCase.coverage" NAME="Test: core.tests.test_actions.ActionsTestCase Coverage Results" MODIFIED="1575692279917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tracking$Test__workspaces_tests_test_workspace_admin_WorkspaceTestCase_test_admin_workspace_create.coverage" NAME="Test: workspaces.tests.test_workspace_admin.WorkspaceTestCase.test_admin_workspace_create Coverage Results" MODIFIED="1576097734724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
